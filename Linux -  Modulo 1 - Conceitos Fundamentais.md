@@ -2,15 +2,11 @@
 
 `Curso em v[ideo - Gustavo Guanabara. Link: [Linux [40 Horas] - Curso em Vídeo](https://www.cursoemvideo.com/curso/linux/)`
 
-
-
 - Linux é bem versátil, ele tem código aberto
 
 - Muitos servidores são baseados em Linux
 
 - O núcleo do sistema Android é Linux
-  
-  
 
 ### História do Linux
 
@@ -20,7 +16,7 @@
 
 - GNU - GNU is Not Unix => Richard Stallman criou um manifesto pois ele queria que as pessoas pudessem ter acesso a um sistema operacional, completamente livre, em Unix, para que dessa forma pudessem ver o código fonte e que pudessem aprender com isso (como ele aprendeu)
 
-- Sistema operacional é composto de: Núcleo de um sistema(kernel), um conjunto de bibliotecas para acessar o núcleo e um conjunto de unitários. O Stallman junto com um time criou o conjunto de bibliotecas, conjunto de unitários, mas faltava o núcleo de um sistema
+- Sistema operacional é composto de: Núcleo de um sistema(kernel), um conjunto de bibliotecas para acessar o núcleo e um conjunto de unitários(esses dois pontos seria uma shell). O Stallman junto com um time criou o conjunto de bibliotecas, conjunto de unitários, mas faltava o núcleo de um sistema
 
 - O Linus (um estudante), usou o os conjuntos já criados lá pelo GNU, e criou um kernel, que foi nomeado como Linux. Ele abriu o projeto e várias pessoas foram auxiliando o projeto. Hoje várias pessoas (e empresas) apoiam e continuam o trabalho no linux. No caso, muitas pessoas criticam chamar só de Linux, teria que chamar de GNU Linux (porque o Linux seria só o centro, o resto dos pacotes seria da GNU)
 
@@ -40,8 +36,6 @@
     
     - Dessas três distribuições principais, surgiram outras distribuições como? Ubuntu(veio da Debian), Mint(veio do Ubuntu que veio da Debian), Conectiva(veio da RedHat), etc.
 
-
-
 ### Licença
 
 - Uma licença determina o que você pode fazer com uma produção intelectual (em termos de vídeo, fotos, softwares, etc.). Há vários tipos de licença, inclusive para softwares. Uma licença não necessariamente envolve dinheiro, mas envolve regras que você precisa seguir
@@ -53,11 +47,19 @@
 - Licença por assinatura, por exemplo, que é o caso da Adobe atualmente na qual você paga mensalmente para usar.
 
 - Há mais de 70 licenças de softwares livres. A licença GPL é a mais famosa para o Linux (a versão 2).
+  
+  - Fala de 4 liberdades:
+    
+    - 0 - **Executar** (o software, ter acesso ao software)
+    
+    - 1 - **Estudar** (o código fonte)
+    
+    - 2 - **Modificar** (os softwares da maneira que deseja)
+    
+    - 3 - **Distribuir** (você pode redistribuir o código, mas da maneira que você recebeu, ou seja, com essa mesma licença)
 
 - ##### Software Livre
   
   - Eles não ganham dinheiro através do software livre, eles ganham dinheiro com o serviço agregado (suporte, manutenção, adaptação do software, etc.)
 
-- d
-
-
+- 
