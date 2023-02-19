@@ -9,8 +9,6 @@
 - O Cron é um comando do Linux que permite programar tarefas para serem executadas de maneira independente
 - É um recurso de automação
 
-
-
 # Linux - Primeiros Passos - Módulo 4: Instalação básica de programas no Linux
 
 Há duas maneiras de fazer essa instalação, a primeira é pelo **Terminal** e a segunda é pela **Loja de aplicativos do Mint**
@@ -42,9 +40,66 @@ Há duas maneiras de fazer essa instalação, a primeira é pelo **Terminal** e 
     - ```
       apt install nomeDoPacot
       
+      //htop é um programa para ver como está a sua CPU
       apt install htop
       ```
   
-  - Após isso irá aparecer para colocar a senha
+  - Após isso irá aparecer para colocar a senha e o programa é instalado
+  
+  - ### Para desinstalar
+    
+    - ```
+      apt remove nomedoPacote
+      
+      apt remove htop
+      ```
+    
+    - Outra forma (para remover apps que você baixou direto da internet)
+      
+      - Pelo terminal, vai até a pasta que você baixou o programa e coloca?
+      
+      - ```
+        sudo dpkg --remove nomeDoArquivoQueVoceBaixou
+        
+        Para remover manualment o visual studio code
+        sudo dpkg --remove code
+        ```
+      
+      -  
+  
+  - ### Para procurar outros pacotes
+    
+    - ```
+      apt search NomeDoPacoteQueVoceQuerProcurar
+      sudo apt install eclipse-jdt
+      ```
+    
+    - 
+  
+  - d
 
-- d
+- #### Instalando app da Microsoft (Visual Studio)
+  
+  - Primeiro: baixa o arquivo da internet (no mint é .deb porque é baseado em uma versão do Debian)
+  
+  - **Primeira forma**
+    
+    - Dois cliques no arquivo baixado e seguir o que é indicado pelo Linux
+  
+  - **Segunda forma**
+    
+    - No terminal, vai até a pasta que você baixou o arquivo e digita?
+    
+    - ```
+      sudo dpkg --install nomeDoArquivo
+      sudo dpkg --install code
+      ```
+
+- #### Para limpar o cachê
+  
+  - ```
+    sudo apt clean
+    sudo apt autoremove
+    ```
+  
+  - 
